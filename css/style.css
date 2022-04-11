@@ -18,10 +18,21 @@ body {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .container h1 {
+    margin-bottom: 3rem;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: white;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: whitesmoke;
+    margin: .5rem .5rem;
 }

@@ -13,4 +13,5 @@ for (let i = 1; i <= 100; i++) {
     }
 
     console.log(numberX);
+    document.querySelector('.row').innerHTML += `<div class ="box">${numberX}</div>`;
 }
