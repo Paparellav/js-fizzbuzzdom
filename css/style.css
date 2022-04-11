@@ -19,6 +19,7 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .container h1 {
@@ -29,10 +30,22 @@ body {
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     text-align: center;
-    line-height: 100px;
-    background-color: whitesmoke;
+    line-height: 120px;
+    background-color: #1389b2;
     margin: .5rem .5rem;
+}
+
+.fizz {
+    background-color: #0bd6a1;
+}
+
+.buzz {
+    background-color: #ffd166;
+}
+
+.fizzbuzz {
+    background-color: #f0466f;
 }

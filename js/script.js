@@ -5,13 +5,13 @@ for (let i = 1; i <= 100; i++) {
     let numberX = i;
 
     if (i % 3 === 0 && i % 5 === 0) {
-        numberX = "FizzBuzz";
+        numberX = "fizzbuzz";
     } else if (i % 3 === 0) {
-        numberX = "Fizz";
+        numberX = "fizz";
     } else if (i % 5 === 0) {
-        numberX = "Buzz";
+        numberX = "buzz";
     }
 
     console.log(numberX);
-    document.querySelector('.row').innerHTML += `<div class ="box">${numberX}</div>`;
+    document.querySelector('.row').innerHTML += `<div class ="box ${numberX} ">${numberX}</div>`;
 }
